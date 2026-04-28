@@ -18,19 +18,19 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/LoginPage.vue')
   },
   {
-    path: '/cadastro',
-    name: 'Cadastro',
-    component: () => import('@/views/CadastroPage.vue')
+    path: '/register',
+    name: 'Register',
+    component: () => import('@/views/RegisterPage.vue')
   },
   {
-    path: '/recuperar',
+    path: '/forgot-password',
     name: 'Recuperar',
-    component: () => import('@/views/RecuperarSenhaPage.vue')
+    component: () => import('@/views/ForgotPasswordPage.vue')
   },
   {
-    path: '/detalhes/:id',
+    path: '/details/:id',
     name: 'Detalhes',
-    component: () => import('@/views/DetalhesLivroPage.vue')
+    component: () => import('@/views/BookDetailsPage.vue')
   }
 ]
 
